@@ -33,7 +33,7 @@ Wigner3j    -- For comparison/verification of the correctness of Wigner 3-j symb
 
 COMPILATION:
 
-Intel Fortran (IFORT) with an essential option: Project Properties (Alt-Enter) > Configuration Properties > Fortran > Data > Default Real KIND := 16.
+Intel Fortran (IFORT) with an essential Visual Studio option: Project Properties (Alt-Enter) > Configuration Properties > Fortran > Data > Default Real KIND := 16.
 
 Alternatively, use Gfortran:
 
