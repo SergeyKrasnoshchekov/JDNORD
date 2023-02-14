@@ -3,7 +3,7 @@ of the first kind and then invokes two routines for testing the correctness of t
 the reduction formula for six-term products of angular momentum ladder operators to the
 normal form:
 
-     a     b     c     d     e     f    N           k(j)     l(j)     m(j)
+          a     b     c     d     e     f    N           k(j)     l(j)     m(j)
 J~6 = J(z)  J(+)  J(-)  J(z)  J(+)  J(-)  = SUM A(j) J(z)     J(+)     J(-)    ;          (1)
                                             j=1
 
@@ -26,14 +26,20 @@ As the derived coefficients can become very large, the recommended values for ca
 are 6/9 and for case (2) are 8/14.
 
 LIBRARY ROUTINES:
+
 BINOM_TABLE -- Pre-calculate binomial coefficients.
+
 STIRL_TABLE -- Pre-calculate Stirling numbers of the first kind.
+
 JREDUCE     -- Reduction of six-term products of angular momentum ladder operators to the
                normal form;
+               
 ROTOPKET    -- Evaluate the result of action of a rotational normal-ordered operator 
                product on rigid rotor rotational wave functions |J,K>;
+               
 DREDUCE     -- Reduction of the normal-ordered product of rotational ladder operators
                and the Wigner function D1(0,eps), eps = -1,0,+1 to the normal form:
+               
 WIGOPKET    -- Evaluate the result of action of a composite Wigner D-function and the 
                rotational normal-ordered operator product on wave functions |J,K>.
 
