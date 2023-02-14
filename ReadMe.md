@@ -34,3 +34,13 @@ WIGOPKET    -- Evaluate the result of action of a composite Wigner D-function an
 EXTERNAL ROUTINE:
 Wigner3j    -- For comparison/verification of the correctness of Wigner 3-j symbols.
 
+This project consisting of two files can be compiled by:
+
+Intel Fortran (IFORT) with an essential option: Project Properties (Alt-Enter) > Configuration Properties > Fortran > Data > Default Real KIND := 16.
+
+Alternatively, use Gfortran:
+
+gfortran -c -O3 -fdefault-real-16 *.f90
+
+gfortran *.o -o JDNORD
+
